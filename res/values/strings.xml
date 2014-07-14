@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">P7-SharedPrefrences</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="primerCategory">Nombre de primer Category</string>
+    <string name="segundaCategory">Nombre de segundo Category</string>
+    <string name="tercerCategory">Nombre de tercera Category</string>
+    <string name="tituloCheckbox">Este es un checbox</string>
+    <string name="tituloEditText">Este es el EditText</string>
+    <string name="tituloSwitch">Este es un switch Preference</string>
+    <string-array name="arregloParaListPreferences">
+        <item >Elemento 1</item>
+        <item >Elemento 2</item>
+        <item >Elemento 3</item>
+        <item >Elemento 4</item>
+        <item >Elemento 5</item>
+    </string-array>
+    <string-array name="valoresParaListPreferences">
+        <item >Valor Elemento 1</item>
+        <item >Valor Elemento 2</item>
+        <item >Valor Elemento 3</item>
+        <item >Valor Elemento 4</item>
+        <item >Valor Elemento 5</item>
+    </string-array>
+    <string name="tituloListPreferences">Selecciona un elemento</string>
+    <string name="tituloRingtone">Aquí se selecciona un ringtone</string>
+    <string name="tituloScreen">Esto te habre una nueva ventana</string>
+    <string name="tituloCategoryEnScreenNuevo">Nombre de category en Screen Nuevo</string>
+    <string name="CheckEnScreenNuevo">Nuevo Check en un nuevo Screen</string>
+
+</resources>

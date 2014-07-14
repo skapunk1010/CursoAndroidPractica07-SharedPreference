@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/preferenceCategory1" android:title="@string/primerCategory" android:key="primerCategory">
+        <CheckBoxPreference android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/checkBoxPreference1" android:title="@string/tituloCheckbox" android:key="check"/>
+        <EditTextPreference android:id="@+id/editTextPreference1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:title="@string/tituloEditText" android:key="edit"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:key="segundaCategory" android:title="@string/segundaCategory" android:summary="">
+        <RingtonePreference android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ringtonePreference1" android:key="ringtone" android:title="@string/tituloRingtone"/>
+        <SwitchPreference android:layout_width="wrap_content" android:id="@+id/switchPreference1" android:layout_height="wrap_content" android:key="switch" android:title="@string/tituloSwitch"/>
+        <ListPreference android:key="list" android:title="@string/tituloListPreferences" android:entries="@array/arregloParaListPreferences" android:entryValues="@array/valoresParaListPreferences" />tituloRingtonetituloRingtonetituloRingtone
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/tercerCategory" android:key="tercerCategory">
+        <PreferenceScreen android:layout_height="wrap_content" android:id="@+id/preferenceScreen1" android:layout_width="wrap_content" android:key="subScreen" android:title="@string/tituloScreen">
+            <PreferenceCategory android:layout_width="wrap_content" android:id="@+id/preferenceCategory1" android:layout_height="wrap_content" android:title="@string/tituloCategoryEnScreenNuevo" android:key="categoryEnScreenNuevo">
+                <CheckBoxPreference android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/checkBoxPreference1" android:title="@string/CheckEnScreenNuevo" android:key="checkNuevo"/>
+            </PreferenceCategory>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    
+    
+
+</PreferenceScreen>
